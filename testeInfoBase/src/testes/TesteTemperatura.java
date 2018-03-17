@@ -32,7 +32,7 @@ public class TesteTemperatura {
 						Collections.sort(listaTemperaturas);
 						continue;
 					}else {
-						for(int i = 0; i <= listaTemperaturas.size(); i++ ) {
+						for(int i = 0; i < listaTemperaturas.size(); i++ ) {
 							if(temperatura.compareTo(listaTemperaturas.get(i)) == 0) {
 								break;
 							}else if(temperatura.compareTo(listaTemperaturas.get(i)) > 0) {
